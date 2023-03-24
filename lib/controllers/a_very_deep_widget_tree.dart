@@ -5,8 +5,8 @@ import 'package:provider/provider.dart';
 class ColumnClass extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-// âProvider.ofâ, just like Consumer needs to know the type of the model.
-    // We need to specify the model âCountingTheNumberâ.
+    // Provider, just like Consumer needs to know the type of the model.
+    // We need to specify the model CountingTheNumber.
     //this time only this widget will be rebuilt
     final CountingTheNumber counter = Provider.of<CountingTheNumber>(context);
     return Column(
